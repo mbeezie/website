@@ -198,6 +198,8 @@
 		}
 		
 		setTimeout(function() { fitText(); },1000);	
+		//TODO: REMOVE THIS LINE
+		openMenu();
 	
 	};
 	// WINDOW ONLOAD	
