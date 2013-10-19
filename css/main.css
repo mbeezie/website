@@ -426,7 +426,7 @@ box-shadow: 0 0 10px #555;
 a.rm-button-open { position: absolute; top: 50%; margin-top: -20px; right: -10px; }
 a.rm-button-open:hover { right:0; }
 .ribbon { text-align: center;
-   background: #d64b4b;
+   background: #d4ccc2;
    -webkit-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
    -moz-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
    box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
@@ -438,7 +438,7 @@ a.rm-button-open:hover { right:0; }
 .ribbon strong { display: block; margin:0 0 0 -20px; padding: 0 20px 0 14px; position: relative; z-index: 295; font-size: 15px!important; font-weight: bold; line-height:42px; min-height: 42px; color: #811919; text-shadow: 0 1px 0 rgba(255,255,255,.2); }
 a.ribbon { color: #630f0f; }
 a.ribbon:hover { color: #000; }
-.ribbon:before { content: ''; position: absolute; display: block; top: 0; border: 24px solid #d64b4b; z-index: -1; }
+.ribbon:before { content: ''; position: absolute; display: block; top: 0; border: 24px solid #d4ccc2; z-index: -1; }
 .ribbon:before { left: -48px; border-right-width: 24px; border-left-color: transparent;
    -webkit-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
    -moz-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
