@@ -114,7 +114,6 @@
               <!-- CONTENT -->
               <div class="content">
                 <h2><span>THE EXPLORERS</span></h2>
-                <img src="" alt="">
                 <p>
                   Hello! We are Lucas and Marybeth (most people call her Beezie). Recently, we both left the comfort of our apartment in the city of Oakland, California and said goodbye to rat races and corporate jobs for our shared dream to work and live on the road in a vintage 1969 Shasta trailer (named “Jonathan Trailer Thomas”).
                   <br/><p/>
@@ -166,9 +165,6 @@
               <div class="content">
 
                 <h2><span>GRAB YOUR BINOCS</span></h2>
-                <p class="center">Say hello, exchange secret spots, tell us a joke (or two), give tips and suggestions, or just tell us how awesome we are. Either way, we promise to reply to you, unless you are plain bat-shit crazy. We're looking forward to hearing from you!</p>
-
-                <h3><span>NATURE CALL</span></h3>
 
                 <!-- SOCIAL -->
                 <ul class="social">
@@ -183,6 +179,8 @@
                 <!-- SOCIAL -->
 
                 <h3><span>SEND A SMOKE SIGNAL</span></h3>
+                    <p class="center">Say hello, exchange secret spots, tell us a joke (or two), give tips and suggestions, or just tell us how awesome we are. Either way, we promise to reply to you, unless you are plain bat-shit crazy. We're looking forward to hearing from you!</p>
+
                 <!-- .contact-form -->
                 <div class="contact-form">
                   <!-- LETTER -->
@@ -261,7 +259,7 @@
                 <!-- CONTENT -->
                 <div class="content">
                   <h2><span>OBSERVATIONS</span></h2>
-                    <div id="instafeed"></div>
+                    <div id="instafeed" style="padding-left:15px"></div>
                 </div>
                 <!-- CONTENT -->
               </div>
@@ -325,7 +323,8 @@
       tagName: 'leftnleaving',
       clientId: '921bbf1e8e7b454ba0d6c2050682ed0f',
       resolution: 'standard_resolution',
-      template: '<a href="{{image}}" rel="shadowbox[California]"><img src="{{image}}" style="width:150px"/></a>'
+      template: '<a href="{{image}}" rel="shadowbox[California]"><img src="{{image}}" style="width:150px; padding: 10px 15px 5px 15px"/></a>',
+      limit: 20
       });
     feed.run();
 
