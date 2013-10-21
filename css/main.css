@@ -43,7 +43,7 @@ body, input, textarea, select, button, input[type="button"], input[type="reset"]
 { font-family: Lato, Arial, serif; }
 
 /* FONT AWESOME ICONS */
-.fancy-ico:before, #fancybox-close:before, .icon, .icon:before, .portfolio-items .mask:before, #header ul li a:before, .widget-twitter ul:before, .widget-twitter ul li:before, .alert:before, .social li a.pinterest:before,  .social li a.instagram:before, .rm-close span:before { font-family: FontAwesome; font-weight: normal; text-align:left; font-style: normal; display: inline-block; text-decoration: inherit; }
+.fancy-ico:before, #fancybox-close:before, .icon, .icon:before, .portfolio-items .mask:before, #header ul li a:before, .widget-twitter ul:before, .widget-twitter ul li:before, .alert:before, .social li a.pinterest:before,  .social li a.instagram:before,  .social li a.tumblr:before, .rm-close span:before { font-family: FontAwesome; font-weight: normal; text-align:left; font-style: normal; display: inline-block; text-decoration: inherit; }
 
 
 
@@ -357,7 +357,7 @@ box-shadow: 0 0 10px #555;
 .social li a.skype:before { content: ':'; }
 .social li a.picassa:before { content: '8'; }
 .social li a.youtube:before { content: "'"; }
-.social li a.tumblr:before { content: '/'; }
+.social li a.tumblr:before { content: 't'; font-family: "Bookman Old Style"; font-weight:bold; }
 .social li a.behance:before { content: 'G'; }
 .social li a.blogger:before { content: 'J'; }
 .social li a.delicious:before { content: 'L'; }
