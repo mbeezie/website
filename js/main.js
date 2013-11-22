@@ -1,6 +1,6 @@
 /*
-  Name: BookCard
-  Description: Responsive HTML5 vCard Template
+  Name: LeftnLeaving
+  Description: A Field Guide To Adventure, Travel, Exploring, And Documenting
   Version: 1.0
   Author: pixelwars
 */
